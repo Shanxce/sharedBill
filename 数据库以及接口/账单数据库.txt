@@ -1,0 +1,58 @@
+user_info
+user_id 		int 	primarykey,AUTO_INCREMENT
+user_name	char(16)	
+user_phone	char(11)
+user_email	char(40)
+user_permission	tiny_int
+user_createtime	datetime
+user_passwd	char(100)
+
+
+assets_info
+assets_id		int	primarykey,AUTO_INCREMENT
+assets_user_id	int	
+assets_name	char(20)
+assets_number	int
+assets_createtime	datetime
+assets_trash	boolean
+foreign key(assets_user_id)  	user_info(user_id)
+
+
+bill_info
+bill_id		int	primarykey,AUTO_INCREMENT
+bill_name		char(40)
+bill_isshare	boolean
+bill_createtime	datetime
+
+
+bill_user
+bill_id		int
+user_id		int
+user_nickname	char(16)
+bill_user_createtime	datetime
+bill_user_leavetime	datetime
+primarykey(bill_id,bill_user_id)
+foreign key(bill_id)  		bill_info(bill_id)
+foreign key(user_id)  	user_info(user_id)
+
+
+bill_detail
+bill_detail_id	int
+bill_id		int
+user_id		int
+assets_id		int
+bill_count		int
+bill_describe		char(200)
+bill_photo_addr	char(100)
+bill_clean		boolean
+bill_detail_createtime	datetime
+bill_detail_cleantime		datetime
+primarykey(bill_detail_id)
+foreign key(bill_id)  		bill_info(bill_id)
+foreign key(user_id)  	user_info(user_id)
+foreign key(assets_id)	user_info(assets_id)
+
+
+record_user
+bill_detail_id	int
+user_id		int

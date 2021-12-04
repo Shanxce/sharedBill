@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "rolnan";
+  src: url("rolnan.woff2") format("woff2"),
+       url("rolnan.eot") format("embedded-opentype"),
+       url("rolnan.svg") format("svg"),
+       url("rolnan.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}

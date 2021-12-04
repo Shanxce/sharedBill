@@ -1,0 +1,28 @@
+ion-item.addAsset
+{
+    font-size:20px;
+}
+
+ion-item.asset {
+  --background: white;
+}
+
+ion-button.control_add {
+  font-size: 15px;
+  --background: rgb(245, 150, 100);
+}
+ion-content.addasset {
+  --background: white;
+}
+ion-label.addAsset
+{
+    font-size:15px;
+}
+ion-toolbar.blank {
+  max-height: 25px;
+  --background: white;
+}
+
+ion-input.input {
+  font-size: 20px;
+}

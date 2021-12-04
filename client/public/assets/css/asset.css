@@ -1,0 +1,97 @@
+ion-title {
+    font-size: 30px;
+    font-family: "rolnan";
+  }
+  ion-label.circle {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px 20px 20px 20px;
+    vertical-align: center;
+  }
+  .buttom {
+    color: rgb(245, 150, 100);
+  }
+  .light {
+    background-color: rgba(238, 238, 238, 0.65);
+    color: black;
+  }
+  .yellow {
+    background-color: rgb(245, 200, 100);
+    color: white;
+  }
+  .red {
+    background-color: rgb(155, 154, 154);
+    color: white;
+  }
+  .orange {
+    background-color: rgb(245, 150, 100);
+    color: white;
+  }
+  .light_yellow {
+    background-color: rgb(245, 220, 50);
+    color: white;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .left {
+    padding-left: 10%;
+    text-align: left;
+  }
+  .right {
+    padding-right: 10%;
+    text-align: right;
+  }
+  ion-icon.asset {
+    padding-left: 75%;
+    font-size: 20px;
+  }
+  ion-label.Asset {
+    font-size: 50px;
+    font-family: "rolnan";
+    font-weight:bold;
+    --background: rgb(245, 200, 100);
+  }
+  
+  ion-title.asset {
+    color: white;
+    font-size: 40px;
+  }
+  ion-item.asset {
+
+    --border-radius:40px;
+    --background:white;
+  }
+  
+  ion-button {
+    --background:khaki;
+    --color:black;
+  }
+  ion-content.asset {
+    --background: white;
+  }
+  ion-content.asset{
+    --background: url(../assets/image/background3.jfif) 0 0/100% 100% no-repeat;
+    background-position-x: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  } 
+  ion-toolbar.asset {
+    --background: orange;
+    
+  }
+  
+  .popover {
+    width: 1000px;
+    height: 1000px;
+  }
+  
+  ion-toolbar.blank {
+    max-height: 25px;
+    --background: rgb(240, 200, 139);
+  }
+  

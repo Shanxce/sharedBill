@@ -1,0 +1,7 @@
+{
+  "name": "shared-bill",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

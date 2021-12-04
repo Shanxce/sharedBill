@@ -1,0 +1,93 @@
+
+
+ion-title {
+  font-size: 30px;
+  font-family: "rolnan";
+  color: rgb(245, 100, 100);
+}
+ion-label.circle {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 20px 20px 20px 20px;
+  vertical-align: center;
+}
+.buttom {
+  color: rgb(245, 150, 100);
+}
+.light {
+  background-color: rgba(238, 238, 238, 0.65);
+  color: black;
+}
+.yellow {
+  background-color: rgb(245, 200, 100);
+  color: white;
+}
+.red {
+  background-color: rgb(245, 100, 100);
+  color: white;
+}
+.orange {
+  background-color: rgb(245, 150, 100);
+  color: white;
+}
+.light_yellow {
+  background-color: rgb(245, 220, 50);
+  color: white;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.left {
+  padding-left: 10%;
+  text-align: left;
+}
+.right {
+  padding-right: 10%;
+  text-align: right;
+}
+ion-icon.bill {
+  padding-left: 75%;
+  font-size: 20px;
+}
+ion-label.billContent {
+  font-size: 20px;
+  --background: rgb(245, 200, 100);
+}
+
+ion-title.bill {
+  color: white;
+  font-size: 40px;
+}
+ion-item.bill {
+  --background: white;
+}
+
+ion-button.billContent {
+  --background:khaki;
+  font-size:20px;
+  font-family: "rolnan";
+  font-weight: bolder;
+}
+ion-content.bill {
+  --background: white;
+  --padding-bottom: 30%;
+}
+
+ion-toolbar.bill {
+  --background: orange;
+}
+
+ion-toolbar.blank {
+  max-height: 25px;
+  --background: orange;
+}
+
+.popover {
+  width: 1000px;
+  height: 1000px;
+}
+
+

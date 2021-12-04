@@ -1,0 +1,30 @@
+ion-label.wrong {
+    --color: red;
+}
+
+ion-button {
+    --background: orange;
+    font-family: "rolnan";
+}
+
+.footer {
+    font-family: "rolnan";
+    font-size: 20px;
+}
+
+.title {
+    font-family: "rolnan";
+    font-size: 30px;
+}
+
+ion-content {
+    --background: rgba(128, 128, 128, 0.13);
+}
+
+ion-item {
+    --background: rgba(128, 128, 128, 0.13);
+}
+
+ion-toolbar.return {
+    --background: rgba(128, 128, 128, 0.13);
+}

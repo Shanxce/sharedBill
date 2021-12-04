@@ -1,0 +1,41 @@
+.header {
+  --background: orange;
+}
+
+ion-header {
+  background: orange;
+}
+
+ion-title.title {
+  font-family: "rolnan";
+  font-size: 40px;
+  --color: white;
+}
+
+.name {
+  font-family: "rolnan";
+}
+
+ion-content.ion-padding {
+  --background: url(../assets/image/back_3.jpg) 0 0/100% 100% no-repeat;
+  background-position-x: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+ion-button.logout
+{
+  --background:rgb(240, 207, 20);
+}
+ion-card.selfinfo {
+  --color: red;
+  --background: red;
+}
+
+ion-toolbar.fix {
+  --background: orange;
+  max-height: 25px;
+}
+ion-item.headImg{
+  --border-radius:50px;
+}

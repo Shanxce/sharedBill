@@ -1,0 +1,40 @@
+.input {
+    --border: 2px solid;
+    --border-radius: 25 px;
+    --border-color: black;
+    --border-style: double;
+  }
+  .title {
+    font-family: "rolnan";
+    font-size: 25px;
+  }
+  .login {
+    --border: 0;
+    --background: orange;
+  
+    font-family: "rolnan";
+    font-size: 20px;
+  }
+  .register {
+    --border: 0;
+    --background: khaki;
+    font-family: "rolnan";
+    font-size: 20px;
+    --color: black;
+  }
+  #father {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  #son {
+    position: absolute;
+  }
+  .item.sc-ion-label-ios-h,
+  .item .sc-ion-label-ios-h {
+    font-size: small;
+  }
+  .footer {
+    font-family: "rolnan";
+  }
